@@ -1,0 +1,25 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# Quarto source files (we only need _site for the container)
+*.qmd
+_quarto.yml
+.quarto
+
+# Documentation and notes
+*.md
+*.docx
+draft_*.docx
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode
+.idea
+
+# Other files not needed in the container
+index_files
+profile.jpg
